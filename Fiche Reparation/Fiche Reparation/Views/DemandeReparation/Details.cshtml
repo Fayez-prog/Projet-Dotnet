@@ -1,0 +1,40 @@
+﻿@model Fiche_Reparation.Models.DemandeReparation
+@{
+    ViewData["Title"] = "Détails de la demande";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-info text-white">
+            <h2 class="mb-0">@ViewData["Title"]</h2>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Date de dépôt</dt>
+                <dd class="col-sm-9">@Model.DateDepotAppareil.ToString("dd/MM/yyyy")</dd>
+
+                <dt class="col-sm-3">Appareil</dt>
+                <dd class="col-sm-9">@Model.Appareil</dd>
+
+                <dt class="col-sm-3">État</dt>
+                <dd class="col-sm-9">
+                    <span class="badge
+                        @(Model.Etat == "Terminé" ? "bg-success" :
+                          Model.Etat == "En cours" ? "bg-warning text-dark" : "bg-secondary")">
+                        @Model.Etat
+                    </span>
+                </dd>
+
+                <dt class="col-sm-3">Client</dt>
+                <dd class="col-sm-9">@Model.Client?.Nom</dd>
+
+                <dt class="col-sm-3">Symptômes</dt>
+                <dd class="col-sm-9">@Model.SymptomesPanne</dd>
+            </dl>
+        </div>
+        <div class="card-footer">
+            <a href="@Url.Action("Index")" class="btn btn-outline-secondary">Retour</a>
+            <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-warning">Modifier</a>
+        </div>
+    </div>
+</div>

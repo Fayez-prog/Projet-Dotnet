@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Fiche_Reparation.Models.DemandeReparation>
+@{
+    ViewData["Title"] = "Liste des demandes de réparation";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>@ViewData["Title"]</h2>
+        <a href="@Url.Action("Create")" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Nouvelle demande
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            Aucune demande de réparation n'a été trouvée.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Date dépôt</th>
+                        <th>Appareil</th>
+                        <th>État</th>
+                        <th>Client</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.DateDepotAppareil.ToString("dd/MM/yyyy")</td>
+                            <td>@item.Appareil</td>
+                            <td>
+                                <span class="badge
+                                    @(item.Etat == "Terminé" ? "bg-success" :
+                                      item.Etat == "En cours" ? "bg-warning text-dark" : "bg-secondary")">
+                                    @item.Etat
+                                </span>
+                            </td>
+                            <td>@item.Client?.Nom</td>
+                            <td>
+                                <div class="btn-group btn-group-sm" role="group">
+                                    <a href="@Url.Action("Details", new { id = item.Id })"
+                                       class="btn btn-info" title="Détails">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a href="@Url.Action("Edit", new { id = item.Id })"
+                                       class="btn btn-warning" title="Modifier">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+                                    <a href="@Url.Action("Delete", new { id = item.Id })"
+                                       class="btn btn-danger" title="Supprimer">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                    <a href="@Url.Action("GeneratePdf", new { id = item.Id })"
+                                       class="btn btn-secondary" title="PDF">
+                                        <i class="bi bi-file-earmark-pdf"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

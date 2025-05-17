@@ -1,0 +1,61 @@
+﻿@model Fiche_Reparation.Models.Client
+@{
+    ViewData["Title"] = "Détails du Client";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-info text-white">
+            <h2 class="mb-0">@ViewData["Title"]</h2>
+        </div>
+        <div class="card-body">
+            <div class="row mb-4">
+                <div class="col-md-8">
+                    <h3 class="card-title">
+                        <i class="fas fa-user"></i> @Model.Nom
+                    </h3>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <span class="badge bg-primary">Client #@Model.Id</span>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-3 fw-bold">Adresse :</div>
+                            <div class="col-md-9">@Model.Adresse</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-3 fw-bold">Téléphone :</div>
+                            <div class="col-md-9">@Model.NumTel</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-3 fw-bold">Email :</div>
+                            <div class="col-md-9">
+                                <a href="mailto:@Model.Email">@Model.Email</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning me-md-2">
+                    <i class="fas fa-edit"></i> Modifier
+                </a>
+                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger me-md-2">
+                    <i class="fas fa-trash-alt"></i> Supprimer
+                </a>
+                <a asp-action="Liste" class="btn btn-outline-secondary">
+                    <i class="fas fa-list"></i> Retour à la liste
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

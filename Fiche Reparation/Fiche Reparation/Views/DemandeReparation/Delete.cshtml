@@ -1,0 +1,41 @@
+﻿@model Fiche_Reparation.Models.DemandeReparation
+@{
+    ViewData["Title"] = "Supprimer la demande";
+}
+
+<div class="container mt-4">
+    <div class="card border-danger">
+        <div class="card-header bg-danger text-white">
+            <h2 class="mb-0">@ViewData["Title"]</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="text-danger">Êtes-vous sûr de vouloir supprimer cette demande ?</h4>
+
+            <div class="alert alert-warning mt-3">
+                <strong>Attention :</strong> Cette action est irréversible.
+            </div>
+
+            <dl class="row mt-4">
+                <dt class="col-sm-3">Date de dépôt</dt>
+                <dd class="col-sm-9">@Model.DateDepotAppareil.ToString("dd/MM/yyyy")</dd>
+
+                <dt class="col-sm-3">Appareil</dt>
+                <dd class="col-sm-9">@Model.Appareil</dd>
+
+                <dt class="col-sm-3">État</dt>
+                <dd class="col-sm-9">@Model.Etat</dd>
+
+                <dt class="col-sm-3">Client</dt>
+                <dd class="col-sm-9">@Model.Client?.Nom</dd>
+            </dl>
+
+            <form asp-action="Delete" method="post" class="mt-4">
+                <input type="hidden" asp-for="Id" />
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a href="@Url.Action("Index")" class="btn btn-outline-secondary me-md-2">Annuler</a>
+                    <button type="submit" class="btn btn-danger">Confirmer la suppression</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

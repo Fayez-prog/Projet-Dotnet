@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516213313_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gestion Etudiants\\Migrations\\20250516213313_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516212359_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gestion Etudiants\\Migrations\\20250516212359_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\data\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\data\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516212037_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gestion Etudiants\\Migrations\\20250516212037_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516211848_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gestion Etudiants\\Migrations\\20250516211848_Migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\school\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\school\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\school\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\school\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\school\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\school\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\school\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\school\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|c:\\users\\dell\\source\\repos\\gestion etudiants\\gestion etudiants\\views\\school\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E693AE5F-94EA-44BE-BD8B-237264103368}|Gestion Etudiants\\Gestion Etudiants.csproj|solutionrelative:gestion etudiants\\views\\school\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T21:38:48.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T21:38:23.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\Student\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwCIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T21:37:55.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T21:37:27.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250516213313_Migration1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516213313_Migration1.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Migrations\\20250516213313_Migration1.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516213313_Migration1.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Migrations\\20250516213313_Migration1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:33:14.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T21:27:28.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250516212359_Migration1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516212359_Migration1.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Migrations\\20250516212359_Migration1.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516212359_Migration1.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Migrations\\20250516212359_Migration1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:23:59.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Data\\StudentContext.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Data\\StudentContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Data\\StudentContext.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Data\\StudentContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:22:53.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250516212037_Migration1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516212037_Migration1.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Migrations\\20250516212037_Migration1.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516212037_Migration1.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Migrations\\20250516212037_Migration1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:20:37.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250516211848_Migration1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516211848_Migration1.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Migrations\\20250516211848_Migration1.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Migrations\\20250516211848_Migration1.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Migrations\\20250516211848_Migration1.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:18:48.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Models\\Student.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Models\\Student.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:17:49.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:48:27.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwD0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:43:46.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SchoolController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Controllers\\SchoolController.cs",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Controllers\\SchoolController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Controllers\\SchoolController.cs",
+              "RelativeToolTip": "Gestion Etudiants\\Controllers\\SchoolController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:43:27.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\School\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Edit.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\School\\Edit.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T20:39:02.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Details.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\School\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Details.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\School\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T20:37:29.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\School\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Delete.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\School\\Delete.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwGUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T20:37:08.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Create.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\School\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Create.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\School\\Create.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T20:36:33.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gestion Etudiants\\Views\\School\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Gestion Etudiants\\Gestion Etudiants\\Views\\School\\Index.cshtml",
+              "RelativeToolTip": "Gestion Etudiants\\Views\\School\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T20:36:14.638Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

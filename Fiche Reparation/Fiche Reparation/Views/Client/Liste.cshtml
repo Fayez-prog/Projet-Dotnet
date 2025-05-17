@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Fiche_Reparation.Models.Client>
+@{
+    ViewData["Title"] = "Liste des Clients";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>@ViewData["Title"]</h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Ajouter un Client
+        </a>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="card shadow">
+            <div class="table-responsive">
+                <table class="table table-hover mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th><i class="fas fa-user"></i> Nom</th>
+                            <th><i class="fas fa-map-marker-alt"></i> Adresse</th>
+                            <th><i class="fas fa-phone"></i> Téléphone</th>
+                            <th><i class="fas fa-envelope"></i> Email</th>
+                            <th class="text-end">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var client in Model)
+                        {
+                            <tr>
+                                <td>@client.Nom</td>
+                                <td>@client.Adresse</td>
+                                <td>@client.NumTel</td>
+                                <td><a href="mailto:@client.Email">@client.Email</a></td>
+                                <td class="text-end">
+                                    <div class="btn-group" role="group">
+                                        <a asp-action="Details" asp-route-id="@client.Id" class="btn btn-sm btn-info">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a asp-action="Edit" asp-route-id="@client.Id" class="btn btn-sm btn-warning">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@client.Id" class="btn btn-sm btn-danger">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info" role="alert">
+            <i class="fas fa-info-circle"></i> Aucun client n'a été trouvé.
+            <a asp-action="Create" class="alert-link">Cliquez ici</a> pour ajouter un nouveau client.
+        </div>
+    }
+</div>
