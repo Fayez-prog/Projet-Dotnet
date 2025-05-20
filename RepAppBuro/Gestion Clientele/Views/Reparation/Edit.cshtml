@@ -1,0 +1,52 @@
+﻿@model Gestion_Clientele.Models.Reparation
+
+@{
+    ViewData["Title"] = "Modifier la Réparation";
+}
+
+<h1>Modifier la Réparation</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="DateRep" class="control-label"></label>
+                <input asp-for="DateRep" class="form-control" />
+                <span asp-validation-for="DateRep" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TarifMO" class="control-label"></label>
+                <input asp-for="TarifMO" class="form-control" />
+                <span asp-validation-for="TarifMO" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TempsMO" class="control-label"></label>
+                <input asp-for="TempsMO" class="form-control" />
+                <span asp-validation-for="TempsMO" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DemandeReparationId" class="control-label"></label>
+                <select asp-for="DemandeReparationId" class="form-control" asp-items="ViewBag.Demandes"></select>
+                <span asp-validation-for="DemandeReparationId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enregistrer" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+            </div>
+        </form>
+    </div>
+</div>

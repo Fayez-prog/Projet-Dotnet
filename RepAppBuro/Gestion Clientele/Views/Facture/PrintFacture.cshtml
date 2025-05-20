@@ -1,0 +1,150 @@
+﻿@model Gestion_Clientele.Models.Facture
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Facture @Model.Numero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        .company-info {
+            margin-bottom: 30px;
+        }
+
+        .invoice-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .invoice-details {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .client-info {
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .total {
+            text-align: right;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>FACTURE</h1>
+        <h2>@Model.Numero</h2>
+    </div>
+
+    <div class="company-info">
+        <h3>Votre Entreprise</h3>
+        <p>Adresse: 123 Rue de l'Exemple, 75000 Paris</p>
+        <p>Téléphone: 01 23 45 67 89</p>
+        <p>Email: contact@votreentreprise.com</p>
+        <p>SIRET: 123 456 789 00010</p>
+    </div>
+
+    <div class="invoice-info">
+        <div class="client-info">
+            <h3>Client</h3>
+            @if (Model.Reparation?.DemandeReparation != null)
+            {
+                <p>@Model.Reparation.DemandeReparation.Client.Nom </p>
+                <p>@Model.Reparation.DemandeReparation.Client.Adresse</p>
+                <p>@Model.Reparation.DemandeReparation.Client.NumTel</p>
+            }
+        </div>
+
+        <div class="invoice-details">
+            <p><strong>Date de facturation:</strong> @Model.Date.ToString("dd/MM/yyyy")</p>
+            <p><strong>Date de réparation:</strong> @Model.Reparation?.DateRep.ToString("dd/MM/yyyy")</p>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Quantité</th>
+                <th>Prix unitaire</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Main d'œuvre (@Model.Reparation?.TempsMO heures)</td>
+                <td>1</td>
+                <td>@Model.Reparation?.TarifMO.ToString("C")</td>
+                <td>@Model.Reparation?.TarifMO.ToString("C")</td>
+            </tr>
+            <!-- Vous pouvez ajouter d'autres lignes pour les pièces détachées ici -->
+            <tr>
+                <td colspan="3" class="total">Total HT</td>
+                <td>@Model.MontantTotal.ToString("C")</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="total">TVA (20%)</td>
+                <td>@((Model.MontantTotal * 0.2m).ToString("C"))</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="total">Total TTC</td>
+                <td>@((Model.MontantTotal * 1.2m).ToString("C"))</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="footer">
+        <p>Merci pour votre confiance !</p>
+        <p>Paiement attendu sous 30 jours - Modalités de paiement: virement bancaire</p>
+        <p>IBAN: FR76 1234 5678 9123 4567 8912 345</p>
+    </div>
+</body>
+</html>

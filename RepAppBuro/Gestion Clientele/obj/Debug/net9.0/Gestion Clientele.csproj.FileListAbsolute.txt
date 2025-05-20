@@ -1,0 +1,231 @@
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.AssemblyInfo.cs
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.RazorAssemblyInfo.cache
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.RazorAssemblyInfo.cs
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\appsettings.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Gestion Clientele.staticwebassets.runtime.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Gestion Clientele.staticwebassets.endpoints.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Gestion Clientele.exe
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Gestion Clientele.deps.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Gestion Clientele.runtimeconfig.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Gestion Clientele.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Gestion Clientele.pdb
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Humanizer.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\scopedcss\bundle\Gestion Clientele.styles.css
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\scopedcss\projectbundle\Gestion Clientele.bundle.scp.css
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\8l48a28i60-61n19gt1b8.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\3nqm98fnxd-xtxxf3hu2r.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\omc6cll3ld-bqjiyaj88i.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\enf8qju829-c2jlpeoesf.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\7j4h9s0yre-erw9l3u2r3.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\l3yokw9o50-aexeepp0ev.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\2ynx1yid03-d7shbmvgxk.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\qook0gmkoq-ausgxo2sd3.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\asjw1bl4fw-k8d9w2qqmf.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\8higj0z59x-cosvhxvwiu.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\8maa2w0bvy-ub07r2b239.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\02idaj5i5f-fvhpjtyr6v.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\0dw95qg4kl-b7pk76d08c.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\9uot3y04v1-fsbi9cje9m.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\84936fa1lu-rzd6atqjts.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\9sskg5iiur-ee0r1s7dh0.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\sp5nt3ogk7-dxx9fxp4il.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\wdjiuxsvwn-jd9uben2k1.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\q58ri67ucq-khv3u5hwcm.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\97fp7csjbl-r4e9w2rdcm.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\clj3ktbx3b-lcd1t2u6c8.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\47y1aqmc31-c2oey78nd0.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\8onxheasjs-tdbxkamptv.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\v0wk8nqiu0-j5mq2jizvt.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\juyam1h2m6-06098lyss8.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\hu3lvxg0w3-nvvlpmu67g.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\yrj6whzwxl-s35ty4nyc5.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\0mtf0h5dz5-pj5nd1wqec.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\lvulffjlfq-46ein0sx1k.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\axuboo1isw-v0zj4ognzu.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\8jfi4cat78-37tfw0ft22.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\2zc2kiw77i-hrwsygsryq.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\c27z5zj80x-pk9g2wxc8p.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\lue22eabet-ft3s53vfgj.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\0v1ns0ptv3-6cfz1n2cew.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\0pafxdr4dl-6pdc2jztkx.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\ox3aulrboq-493y06b0oq.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\87tpqf6z5l-iovd86k7lj.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\ze1rch93wc-vr1egmr9el.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\7qr8tk1a7q-kbrnm935zg.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\nz4q5aflmi-jj8uyg4cgr.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\dhgobb9fxr-y7v9cxd14o.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\e4k6uhqik0-notf2xhcfb.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\zwvn4smrgc-h1s4sie4z3.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\850t7yiwl4-63fj8s7r0e.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\sbno3mlfsb-0j3bgjxly4.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\yqmsvaxad1-47otxtyo56.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\wm1ry9q7m4-4v8eqarkd7.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\vg6ndyxvxb-356vix0kms.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\qve0byunu5-83jwlth58m.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\yl4z0a0698-mrlpezrjn3.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\oh6m4jf9xo-lzl9nlhx6b.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\spcy6fdha7-ag7o75518u.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\agbznwer0z-x0q3zqp4vz.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\na5gpz8p6b-0i3buxo5is.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\s68gyiljrw-o1o13a6vjx.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\679monimij-ttgo8qnofa.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\dy3k8dufi7-2z0ns9nrw6.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\iau237oohh-muycvpuwrr.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\1l6c2uf63x-87fc7y1x7t.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\0ul3e6jqmi-mlv21k5csn.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\ky9taenl5u-jpfgkwjref.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\d0t3mv8ty6-jpfgkwjref.gz
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets\msbuild.Gestion Clientele.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets\msbuild.Gestion Clientele.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets\msbuild.build.Gestion Clientele.props
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Gestion Clientele.props
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Gestion Clientele.props
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion .174E7382.Up2Date
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\refint\Gestion Clientele.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.pdb
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\Gestion Clientele.genruntimeconfig.cache
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\ref\Gestion Clientele.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\bin\Debug\net9.0\DinkToPdf.dll
+C:\Users\DELL\source\repos\RepAppBuro\Gestion Clientele\obj\Debug\net9.0\compressed\c8qop2h56v-j4dbec2kqy.gz

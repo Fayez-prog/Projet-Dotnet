@@ -1,0 +1,55 @@
+﻿@model Gestion_Clientele.Models.TypePiece
+
+@{
+    ViewData["Title"] = "Détails du Type de Pièce";
+}
+
+<h1>Détails du Type de Pièce</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tarif)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tarif)
+        </dd>
+    </dl>
+
+    <h4>Pièces de recharge associées</h4>
+    @if (Model.PiecesRecharge != null && Model.PiecesRecharge.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Quantité</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var piece in Model.PiecesRecharge)
+                {
+                    <tr>
+                        <td>@piece.Nom</td>
+                        <td>@piece.Quantite</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Aucune pièce de recharge associée à ce type.</p>
+    }
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Modifier</a>
+    <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+</div>

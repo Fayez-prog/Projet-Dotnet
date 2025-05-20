@@ -1,0 +1,73 @@
+﻿@model Gestion_Clientele.Models.DemandeReparation
+
+@{
+    ViewData["Title"] = "Modifier Demande de Réparation";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="DateDepotAppareil" class="control-label">Date de dépôt</label>
+                <input asp-for="DateDepotAppareil" class="form-control" />
+                <span asp-validation-for="DateDepotAppareil" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DatePrevueRep" class="control-label">Date prévue de réparation</label>
+                <input asp-for="DatePrevueRep" class="form-control" />
+                <span asp-validation-for="DatePrevueRep" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Etat" class="control-label">État</label>
+                <select asp-for="Etat" class="form-control">
+                    <option value="En attente">En attente</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Terminée">Terminée</option>
+                    <option value="Annulée">Annulée</option>
+                </select>
+                <span asp-validation-for="Etat" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SymptomesPanne" class="control-label">Symptômes de panne</label>
+                <textarea asp-for="SymptomesPanne" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="SymptomesPanne" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ClientId" class="control-label">Client</label>
+                <select asp-for="ClientId" class="form-control" asp-items="ViewBag.Clients">
+                    <option value="">-- Sélectionner un client --</option>
+                </select>
+                <span asp-validation-for="ClientId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AppareilId" class="control-label">Appareil</label>
+                <select asp-for="AppareilId" class="form-control" asp-items="ViewBag.Appareils">
+                    <option value="">-- Sélectionner un appareil --</option>
+                </select>
+                <span asp-validation-for="AppareilId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Enregistrer" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

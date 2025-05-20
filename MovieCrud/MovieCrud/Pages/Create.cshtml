@@ -1,0 +1,47 @@
+﻿@page
+@model CreateModel
+@using MovieCrud.Entity
+@using Models
+
+@{
+    ViewData["Title"] = "Create a Movie";
+}
+
+<div class="container mt-4">
+    <h1 class="bg-info text-white p-3 rounded">Create a Movie</h1>
+
+    <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+    <form method="post" class="mt-4">
+        <div class="form-group mb-3">
+            <label asp-for="movie.Name" class="form-label fw-bold"></label>
+            <input type="text" asp-for="movie.Name" class="form-control" placeholder="Enter movie name" />
+            <span asp-validation-for="movie.Name" class="text-danger small"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="movie.Actors" class="form-label fw-bold"></label>
+            <input type="text" asp-for="movie.Actors" class="form-control" placeholder="Enter actors (comma separated)" />
+            <span asp-validation-for="movie.Actors" class="text-danger small"></span>
+        </div>
+
+        <div class="form-group mb-4">
+            <label asp-for="movie.Photo" class="form-label fw-bold"></label>
+            <input type="url" asp-for="movie.Photo" class="form-control" placeholder="Enter image URL" />
+            <small class="form-text text-muted">Please enter a valid URL for the movie poster</small>
+        </div>
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <a asp-page="Read" class="btn btn-outline-secondary me-md-2">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-save"></i> Create
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
