@@ -1,0 +1,73 @@
+﻿@model Chatbot.Models.ChatViewModel
+
+@{
+    ViewData["Title"] = "ChatBot";
+}
+
+<div class="chat-container">
+    <div class="chat-header bg-warning text-dark p-3 rounded-top">
+        <h2><i class="fas fa-tools mr-2"></i>@ViewData["Title"]</h2>
+        <p class="mb-0">Posez votre question sur les réparations en cours</p>
+    </div>
+
+    <div class="chat-history bg-light p-3" id="chatHistory">
+        @if (ViewData["ResponseMessage"] != null)
+        {
+            <div class="user-question mb-3 p-2 bg-white rounded">
+                <strong>Vous :</strong> @Model.UserQuestion
+            </div>
+            <div class="bot-response p-3 bg-dark text-white rounded">
+                <h5><i class="fas fa-reply mr-2"></i>Réponse :</h5>
+                <div class="response-content">@Html.Raw(ViewData["ResponseMessage"])</div>
+            </div>
+        }
+        else
+        {
+            <div class="welcome-message text-center p-4">
+                <i class="fas fa-laptop-medical fa-3x text-muted mb-3"></i>
+                <p>Exemples de questions :</p>
+                <ul class="list-unstyled">
+                    <li>"Afficher les réparations en cours"</li>
+                    <li>"Quels appareils sont en attente de pièces ?"</li>
+                    <li>"Donnez-moi les réparations du client Mohamed"</li>
+                </ul>
+            </div>
+        }
+    </div>
+
+    <div class="chat-input p-3 bg-white rounded-bottom">
+        <form asp-action="Interroger" method="post" id="chatForm">
+            <div class="input-group">
+                <input type="text" asp-for="UserQuestion"
+                       placeholder="Votre question sur les réparations..."
+                       required class="form-control"
+                       aria-label="Question sur les réparations">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-warning">
+                        <i class="fas fa-paper-plane"></i> Envoyer
+                    </button>
+                </div>
+            </div>
+            <small class="form-text text-muted">
+                Essayez des questions comme "Afficher les réparations terminées cette semaine"
+            </small>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Animation de soumission
+            $('#chatForm').submit(function() {
+                const btn = $(this).find('button[type="submit"]');
+                btn.html('<i class="fas fa-spinner fa-spin"></i> Traitement...');
+
+                setTimeout(() => {
+                    btn.html('<i class="fas fa-paper-plane"></i> Envoyer');
+                    $('#chatHistory').scrollTop($('#chatHistory')[0].scrollHeight);
+                }, 1000);
+            });
+        });
+    </script>
+}
