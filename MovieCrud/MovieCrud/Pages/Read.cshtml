@@ -1,0 +1,64 @@
+﻿@page
+@model ReadModel
+@using MovieCrud.Entity
+@using Models
+
+@{
+    ViewData["Title"] = "Movies";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="bg-info text-white p-3 rounded">Movies</h1>
+        <a asp-page="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Add New Movie
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Poster</th>
+                    <th>Name</th>
+                    <th>Actors</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Movie m in Model.movieList)
+                {
+                    <tr>
+                        <td>
+                            <img src="@m.Photo" alt="@m.Name poster" class="img-thumbnail" style="width: 80px; height: 120px; object-fit: cover;"
+                                 onerror="this.src='https://via.placeholder.com/80x120?text=No+Image'" />
+                        </td>
+                        <td class="align-middle">@m.Name</td>
+                        <td class="align-middle">@m.Actors</td>
+                        <td class="align-middle text-end">
+                            <div class="btn-group" role="group">
+                                <a class="btn btn-sm btn-outline-primary" asp-page="Update" asp-route-id="@m.Id" title="Edit">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <form asp-page-handler="Delete" asp-route-id="@m.Id" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-sm btn-outline-danger"
+                                            onclick="return confirm('Are you sure you want to delete this movie?')" title="Delete">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    @if (Model.movieList.Count == 0)
+    {
+        <div class="alert alert-info mt-4">
+            No movies found. Would you like to <a asp-page="Create" class="alert-link">add one</a>?
+        </div>
+    }
+</div>
+

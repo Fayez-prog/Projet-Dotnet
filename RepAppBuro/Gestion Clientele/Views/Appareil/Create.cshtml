@@ -1,0 +1,77 @@
+﻿@model Gestion_Clientele.Models.Appareil
+
+@{
+    ViewData["Title"] = "Ajouter un appareil";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h3><i class="bi bi-plus-circle"></i> @ViewData["Title"]</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label asp-for="Name" class="form-label"></label>
+                                <input asp-for="Name" class="form-control" placeholder="Nom de l'appareil" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="Marque" class="form-label"></label>
+                                <input asp-for="Marque" class="form-control" placeholder="Marque" />
+                                <span asp-validation-for="Marque" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="Modele" class="form-label"></label>
+                                <input asp-for="Modele" class="form-control" placeholder="Modèle" />
+                                <span asp-validation-for="Modele" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="NumeroSerie" class="form-label"></label>
+                                <input asp-for="NumeroSerie" class="form-control" placeholder="Numéro de série" />
+                                <span asp-validation-for="NumeroSerie" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="Type" class="form-label"></label>
+                                <input asp-for="Type" class="form-control" placeholder="Type d'appareil" />
+                                <span asp-validation-for="Type" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="ClientId" class="form-label">Client</label>
+                                <select asp-for="ClientId" class="form-select" asp-items="ViewBag.Clients">
+                                    <option value="">-- Sélectionner un client --</option>
+                                </select>
+                                <span asp-validation-for="ClientId" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="bi bi-check-circle"></i> Enregistrer
+                                </button>
+                                <a asp-action="Index" class="btn btn-outline-secondary">
+                                    <i class="bi bi-x-circle"></i> Annuler
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

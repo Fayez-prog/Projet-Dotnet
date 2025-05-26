@@ -1,0 +1,44 @@
+﻿@model Gestion_Clientele.Models.Reparation
+
+@{
+    ViewData["Title"] = "Détails de la Réparation";
+}
+
+<h1>Détails de la Réparation</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Id)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Id)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.DateRep)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.DateRep)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Description)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Description)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.TarifMO)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.TarifMO)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.TempsMO)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.TempsMO)</dd>
+
+        <dt class="col-sm-2">Demande Réparation</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.DemandeReparationId)</dd>
+
+        @if (Model.Facture != null)
+        {
+            <dt class="col-sm-2">Facture</dt>
+            <dd class="col-sm-10">
+                <a asp-controller="Facture" asp-action="Details" asp-route-id="@Model.Facture.Id">
+                    @Model.Facture.Numero - @Model.Facture.MontantTotal €
+                </a>
+            </dd>
+        }
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Modifier</a>
+    <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+</div>

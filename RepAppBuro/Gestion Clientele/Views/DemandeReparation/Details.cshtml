@@ -1,0 +1,112 @@
+﻿@model Gestion_Clientele.Models.DemandeReparation
+
+@{
+    ViewData["Title"] = "Détails de la Demande de Réparation";
+}
+
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h4>@ViewData["Title"]</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Numéro de demande:</dt>
+            <dd class="col-sm-9">@Model.Id</dd>
+
+            <dt class="col-sm-3">Date de dépôt:</dt>
+            <dd class="col-sm-9">@Model.DateDepotAppareil.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">Date prévue de réparation:</dt>
+            <dd class="col-sm-9">@Model.DatePrevueRep.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">État:</dt>
+            <dd class="col-sm-9">
+                <span class="badge @GetStatusBadgeClass(Model.Etat)">@Model.Etat</span>
+            </dd>
+
+            <dt class="col-sm-3">Symptômes de panne:</dt>
+            <dd class="col-sm-9">@Model.SymptomesPanne</dd>
+
+            <dt class="col-sm-3">Client:</dt>
+            <dd class="col-sm-9">
+                @if (Model.Client != null)
+                {
+                    <a asp-controller="Client" asp-action="Details" asp-route-id="@Model.ClientId">
+                        @Model.Client.Nom
+                    </a>
+                }
+            </dd>
+
+            <dt class="col-sm-3">Appareil:</dt>
+            <dd class="col-sm-9">
+                @if (Model.Appareil != null)
+                {
+                    <a asp-controller="Appareil" asp-action="Details" asp-route-id="@Model.AppareilId">
+                        @Model.Appareil.Name
+                    </a>
+                }
+            </dd>
+        </dl>
+
+        <!-- Section pour les réparations -->
+        @if (Model.Reparations != null && Model.Reparations.Any())
+        {
+            <div class="mt-4">
+                <h5>Réparations effectuées</h5>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Coût</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var reparation in Model.Reparations)
+                        {
+                            <tr>
+                                <td>@reparation.DateRep.ToShortDateString()</td>
+                                <td>@reparation.Description</td>
+                                <td>@reparation.TarifMO.ToString("C")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info mt-4">
+                Aucune réparation enregistrée pour cette demande.
+            </div>
+        }
+    </div>
+    <div class="card-footer">
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Retour à la liste
+            </a>
+            <div>
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">
+                    <i class="fas fa-edit"></i> Modifier
+                </a>
+                <a asp-action="ChangeStatus" asp-route-id="@Model.Id" class="btn btn-info ml-2">
+                    <i class="fas fa-sync-alt"></i> Changer état
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    string GetStatusBadgeClass(string status)
+    {
+        return status switch
+        {
+            "En cours" => "bg-warning",
+            "Terminée" => "bg-success",
+            "Annulée" => "bg-danger",
+            _ => "bg-secondary",
+        };
+    }
+}

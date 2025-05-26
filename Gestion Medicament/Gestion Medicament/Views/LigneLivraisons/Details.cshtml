@@ -1,0 +1,87 @@
+﻿@model Gestion_Medicament.Models.LigneLivraison
+
+@{
+    ViewData["Title"] = "Détails de la ligne de livraison";
+}
+
+<div class="container mt-4">
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="Index">Lignes de livraison</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Détails</li>
+        </ol>
+    </nav>
+
+    <div class="card shadow">
+        <div class="card-header bg-info text-white">
+            <h3 class="mb-0"><i class="fas fa-info-circle me-2"></i>@ViewData["Title"]</h3>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0"><i class="fas fa-pills me-2"></i>Information Médicament</h5>
+                        </div>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-sm-4">Référence:</dt>
+                                <dd class="col-sm-8">@Model.Medicament.Reference</dd>
+
+                                <dt class="col-sm-4">Description:</dt>
+                                <dd class="col-sm-8">@Model.Medicament.Description</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0"><i class="fas fa-truck me-2"></i>Information Livraison</h5>
+                        </div>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-sm-4">Numéro:</dt>
+                                <dd class="col-sm-8">@Model.Livraison.Numero</dd>
+
+                                <dt class="col-sm-4">Fournisseur:</dt>
+                                <dd class="col-sm-8">@Model.Livraison.Fournisseur</dd>
+
+                                <dt class="col-sm-4">Date:</dt>
+                                <dd class="col-sm-8">@Model.Livraison.DateLiv.ToShortDateString()</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0"><i class="fas fa-clipboard-list me-2"></i>Détails de la ligne</h5>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-3">ID:</dt>
+                        <dd class="col-sm-9">@Model.Id</dd>
+
+                        <dt class="col-sm-3">Quantité:</dt>
+                        <dd class="col-sm-9">@Model.Quantite</dd>
+
+                        <dt class="col-sm-3">Description:</dt>
+                        <dd class="col-sm-9">@(string.IsNullOrEmpty(Model.Description) ? "Aucune description" : Model.Description)</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning me-md-2">
+                    <i class="fas fa-edit me-1"></i> Modifier
+                </a>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-list me-1"></i> Retour à la liste
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

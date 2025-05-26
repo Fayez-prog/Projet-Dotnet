@@ -1,0 +1,77 @@
+﻿@model Gestion_Clientele.Models.Appareil
+
+@{
+    ViewData["Title"] = "Détails de l'appareil";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3><i class="bi bi-info-circle"></i> @ViewData["Title"]</h3>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Nom</dt>
+                <dd class="col-sm-9">@Model.Name</dd>
+
+                <dt class="col-sm-3">Marque</dt>
+                <dd class="col-sm-9">@Model.Marque</dd>
+
+                <dt class="col-sm-3">Modèle</dt>
+                <dd class="col-sm-9">@Model.Modele</dd>
+
+                <dt class="col-sm-3">Numéro de série</dt>
+                <dd class="col-sm-9">@Model.NumeroSerie</dd>
+
+                <dt class="col-sm-3">Type</dt>
+                <dd class="col-sm-9">@Model.Type</dd>
+
+                <dt class="col-sm-3">Client</dt>
+                <dd class="col-sm-9">@(Model.Client?.Nom ?? "Non assigné")</dd>
+            </dl>
+
+            <!-- Section pour les demandes reparations -->
+            @if (Model.DemandesReparation != null && Model.DemandesReparation.Any())
+            {
+                <div class="mt-4">
+                    <h5>Demandes Reparations effectuées</h5>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>DateDepotAppareil</th>
+                                <th>DatePrevueRep</th>
+                                <th>Etat</th>
+                                <th>SymptomesPanne</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var demande in Model.DemandesReparation)
+                            {
+                                <tr>
+                                    <td>@demande.DateDepotAppareil.ToShortDateString()</td>
+                                    <td>@demande.DatePrevueRep.ToShortDateString()</td>
+                                    <td>@demande.Etat</td>
+                                    <td>@demande.SymptomesPanne</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info mt-4">
+                    Aucune réparation enregistrée pour cette demande.
+                </div>
+            }
+        </div>
+        <div class="card-footer">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                <i class="bi bi-pencil"></i> Modifier
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Retour
+            </a>
+        </div>
+    </div>
+</div>

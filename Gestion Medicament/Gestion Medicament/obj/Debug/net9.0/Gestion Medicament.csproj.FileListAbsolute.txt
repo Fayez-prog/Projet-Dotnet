@@ -1,0 +1,230 @@
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\appsettings.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Gestion Medicament.staticwebassets.runtime.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Gestion Medicament.staticwebassets.endpoints.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Gestion Medicament.exe
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Gestion Medicament.deps.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Gestion Medicament.runtimeconfig.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Gestion Medicament.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Gestion Medicament.pdb
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Humanizer.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.AssemblyInfo.cs
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.RazorAssemblyInfo.cache
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.RazorAssemblyInfo.cs
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\scopedcss\bundle\Gestion Medicament.styles.css
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\scopedcss\projectbundle\Gestion Medicament.bundle.scp.css
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\r18al0bx5t-b9sayid5wm.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\bmmpbzuc5t-61n19gt1b8.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\2cgcrzty56-xtxxf3hu2r.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\5yjkmeoqft-bqjiyaj88i.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\yraqj88ifz-c2jlpeoesf.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\2qn51fq7er-erw9l3u2r3.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\5ot19uuaml-aexeepp0ev.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\pmnl4f7u2j-d7shbmvgxk.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\u0pheoj2q6-ausgxo2sd3.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\eq48j47ag4-k8d9w2qqmf.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\n3vjbk4vse-cosvhxvwiu.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\1n5dstobft-ub07r2b239.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\ccczcq5ryj-fvhpjtyr6v.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\p7dmr4qv05-b7pk76d08c.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\16kgcvu6uk-fsbi9cje9m.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\8yq1s1ihfg-rzd6atqjts.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\i1spx3rx59-ee0r1s7dh0.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\ss7k4czq96-dxx9fxp4il.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\j2hlwqukyz-jd9uben2k1.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\xwduvzn3s2-khv3u5hwcm.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\93t7y34lwx-r4e9w2rdcm.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\2niczvd409-lcd1t2u6c8.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\1hqhpsf3j9-c2oey78nd0.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\suc91txlq7-tdbxkamptv.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\ekpzqpt9i8-j5mq2jizvt.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\1re8oi23cq-06098lyss8.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\pzgzvkiva3-nvvlpmu67g.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\amkltjkx5v-s35ty4nyc5.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\q190dathvj-pj5nd1wqec.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\xktcux6xti-46ein0sx1k.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\i1bvek77vz-v0zj4ognzu.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\bgg0uztdo1-37tfw0ft22.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\1pznxg4zsh-hrwsygsryq.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\fznnrgbslh-pk9g2wxc8p.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\pbn01p43p0-ft3s53vfgj.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\kmm1hyila4-6cfz1n2cew.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\yiz3ydwpwz-6pdc2jztkx.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\e5euslts8z-493y06b0oq.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\pzdogpgqjv-iovd86k7lj.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\q27rlo3hau-vr1egmr9el.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\hrc24m72y1-kbrnm935zg.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\u0dpp1cpw1-jj8uyg4cgr.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\6b8zlvjy7t-y7v9cxd14o.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\lz320auffg-notf2xhcfb.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\48zkek15pv-h1s4sie4z3.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\6yy76qwe44-63fj8s7r0e.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\1b32xs3ab1-0j3bgjxly4.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\e8s9dtli1x-47otxtyo56.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\ij1vjsaoct-4v8eqarkd7.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\dxpclkczpm-356vix0kms.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\v505ojjrwp-83jwlth58m.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\11g75qx0ch-mrlpezrjn3.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\fvn45y8xg2-lzl9nlhx6b.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\gunrr4b0va-ag7o75518u.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\b6tab3m1rh-x0q3zqp4vz.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\85wgjfjeld-0i3buxo5is.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\tuyymj2cmw-o1o13a6vjx.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\4bblvmnfba-ttgo8qnofa.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\oh73do0fp3-2z0ns9nrw6.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\d9lbkhezf1-muycvpuwrr.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\3e19o1nmsf-87fc7y1x7t.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\gz41a7l27v-mlv21k5csn.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\e2ixedbag8-g9fdbrl9zw.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\compressed\z71d2ykks4-g9fdbrl9zw.gz
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets\msbuild.Gestion Medicament.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets\msbuild.Gestion Medicament.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets\msbuild.build.Gestion Medicament.props
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Gestion Medicament.props
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Gestion Medicament.props
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion .F42ED238.Up2Date
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\refint\Gestion Medicament.dll
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.pdb
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\Gestion Medicament.genruntimeconfig.cache
+C:\Users\DELL\source\repos\Gestion Medicament\Gestion Medicament\obj\Debug\net9.0\ref\Gestion Medicament.dll

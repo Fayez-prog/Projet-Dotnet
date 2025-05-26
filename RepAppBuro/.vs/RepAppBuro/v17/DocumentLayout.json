@@ -1,0 +1,381 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\models\\piecerecharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\models\\piecerecharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\models\\reparation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\models\\reparation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\controllers\\reparationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\controllers\\reparationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\controllers\\facturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\controllers\\facturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\views\\reparation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\views\\reparation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\entity\\repository\\facturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\entity\\repository\\facturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\entity\\interface\\ifacturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\entity\\interface\\ifacturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\models\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\models\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\views\\facture\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\views\\facture\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\views\\facture\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\views\\facture\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\views\\facture\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\views\\facture\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\views\\facture\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\views\\facture\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\views\\facture\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\views\\facture\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\views\\facture\\printfacture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\views\\facture\\printfacture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|c:\\users\\dell\\source\\repos\\repappburo\\gestion clientele\\extension\\controllerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D38615-F388-4F76-BE9A-8E9E6CDA8429}|Gestion Clientele\\Gestion Clientele.csproj|solutionrelative:gestion clientele\\extension\\controllerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PieceRecharge.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\PieceRecharge.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Models\\PieceRecharge.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\PieceRecharge.cs",
+              "RelativeToolTip": "Gestion Clientele\\Models\\PieceRecharge.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:23:27.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Gestion Clientele\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:20:02.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reparation.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\Reparation.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Models\\Reparation.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\Reparation.cs",
+              "RelativeToolTip": "Gestion Clientele\\Models\\Reparation.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:16:46.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReparationController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Controllers\\ReparationController.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Controllers\\ReparationController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Controllers\\ReparationController.cs",
+              "RelativeToolTip": "Gestion Clientele\\Controllers\\ReparationController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:00:33.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Reparation\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Views\\Reparation\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Reparation\\Index.cshtml",
+              "RelativeToolTip": "Gestion Clientele\\Views\\Reparation\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T16:59:44.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gestion Clientele\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T16:51:26.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\SeedData.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Models\\SeedData.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\SeedData.cs",
+              "RelativeToolTip": "Gestion Clientele\\Models\\SeedData.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:18:42.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Details.cshtml",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Views\\Facture\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Details.cshtml",
+              "RelativeToolTip": "Gestion Clientele\\Views\\Facture\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T14:54:40.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Views\\Facture\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Index.cshtml",
+              "RelativeToolTip": "Gestion Clientele\\Views\\Facture\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T14:47:19.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\Client.cs",
+              "RelativeToolTip": "Gestion Clientele\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:44:37.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PrintFacture.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\PrintFacture.cshtml",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Views\\Facture\\PrintFacture.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\PrintFacture.cshtml",
+              "RelativeToolTip": "Gestion Clientele\\Views\\Facture\\PrintFacture.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T14:43:54.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FactureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Entity\\Repository\\FactureRepository.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Entity\\Repository\\FactureRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Entity\\Repository\\FactureRepository.cs",
+              "RelativeToolTip": "Gestion Clientele\\Entity\\Repository\\FactureRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAC8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:41:46.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Program.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Program.cs",
+              "RelativeToolTip": "Gestion Clientele\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:36:54.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FactureController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Controllers\\FactureController.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Controllers\\FactureController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Controllers\\FactureController.cs",
+              "RelativeToolTip": "Gestion Clientele\\Controllers\\FactureController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:33:02.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Gestion Clientele\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Gestion Clientele\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-19T15:35:07.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Views\\Facture\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Delete.cshtml",
+              "RelativeToolTip": "Gestion Clientele\\Views\\Facture\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T14:56:44.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFactureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Entity\\Interface\\IFactureRepository.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Entity\\Interface\\IFactureRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Entity\\Interface\\IFactureRepository.cs",
+              "RelativeToolTip": "Gestion Clientele\\Entity\\Interface\\IFactureRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:05:31.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Create.cshtml",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Views\\Facture\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Create.cshtml",
+              "RelativeToolTip": "Gestion Clientele\\Views\\Facture\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T14:55:38.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Facture.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\Facture.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Models\\Facture.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Models\\Facture.cs",
+              "RelativeToolTip": "Gestion Clientele\\Models\\Facture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:59:20.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Views\\Facture\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Views\\Facture\\Edit.cshtml",
+              "RelativeToolTip": "Gestion Clientele\\Views\\Facture\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T14:56:12.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ControllerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Extension\\ControllerExtensions.cs",
+              "RelativeDocumentMoniker": "Gestion Clientele\\Extension\\ControllerExtensions.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\RepAppBuro\\Gestion Clientele\\Extension\\ControllerExtensions.cs",
+              "RelativeToolTip": "Gestion Clientele\\Extension\\ControllerExtensions.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:35:35.727Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

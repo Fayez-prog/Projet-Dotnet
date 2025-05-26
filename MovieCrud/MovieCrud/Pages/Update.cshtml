@@ -1,0 +1,65 @@
+﻿@page
+@model UpdateModel
+@using Models
+
+@{
+    ViewData["Title"] = "Update a Movie";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="bg-info text-white p-3 rounded">Update Movie</h1>
+        <a asp-page="Read" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> Back to List
+        </a>
+    </div>
+
+    <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+    <form method="post" class="mt-4">
+        <input type="hidden" asp-for="movie.Id" />
+
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <div class="form-group mb-3">
+                    <label asp-for="movie.Name" class="form-label fw-bold"></label>
+                    <input type="text" asp-for="movie.Name" class="form-control" />
+                    <span asp-validation-for="movie.Name" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="movie.Actors" class="form-label fw-bold"></label>
+                    <input type="text" asp-for="movie.Actors" class="form-control" />
+                    <span asp-validation-for="movie.Actors" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="movie.Photo" class="form-label fw-bold"></label>
+                    <input type="url" asp-for="movie.Photo" class="form-control" id="photoInput" />
+                    <small class="form-text text-muted">Enter a valid image URL</small>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex flex-column align-items-center">
+                <div class="mb-3 text-center">
+                    <img id="photoPreview" src="@Model.movie.Photo" alt="Current poster"
+                         class="img-thumbnail" style="max-width: 200px;"
+                         onerror="this.src='https://via.placeholder.com/200x300?text=No+Image'" />
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mt-auto">
+                    <i class="bi bi-save"></i> Update Movie
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById("photoInput").addEventListener("input", function() {
+            const img = document.getElementById("photoPreview");
+            img.src = this.value || 'https://via.placeholder.com/200x300?text=No+Image';
+        });
+    </script>
+}

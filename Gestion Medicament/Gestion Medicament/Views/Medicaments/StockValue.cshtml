@@ -1,0 +1,49 @@
+﻿@model double
+
+@{
+    ViewData["Title"] = "Valeur totale du stock";
+}
+
+<div class="container">
+    <h1 class="mb-4">Valeur totale du stock</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card text-white bg-success mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <span>Valeur du stock</span>
+                    <i class="fas fa-pills fa-2x"></i>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title display-4 text-center mb-3">@Model.ToString("C2")</h2>
+                    <p class="card-text text-center">Valeur totale calculée sur tous les médicaments en stock</p>
+                </div>
+                <div class="card-footer text-center">
+                    <small>Dernière mise à jour: @DateTime.Now.ToString("dd/MM/yyyy HH:mm")</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card border-info mb-4">
+                <div class="card-header bg-info text-white">
+                    <i class="fas fa-info-circle"></i> Informations complémentaires
+                </div>
+                <div class="card-body">
+                    <p>Cette valeur représente l'inventaire total de votre pharmacie.</p>
+                    <p>Pour une analyse détaillée, consultez les rapports de stock.</p>
+                    <hr>
+                    <a asp-action="LowStock" class="btn btn-outline-warning">
+                        <i class="fas fa-exclamation-triangle"></i> Voir les stocks faibles
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Retour à la liste
+        </a>
+    </div>
+</div>

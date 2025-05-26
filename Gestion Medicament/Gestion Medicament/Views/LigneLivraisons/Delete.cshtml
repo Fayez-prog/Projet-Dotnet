@@ -1,0 +1,89 @@
+﻿@model Gestion_Medicament.Models.LigneLivraison
+
+@{
+    ViewData["Title"] = "Supprimer la Ligne de Livraison";
+}
+
+<div class="container mt-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="Index">Lignes de Livraison</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Suppression</li>
+        </ol>
+    </nav>
+
+    <div class="card shadow-sm border-danger">
+        <div class="card-header bg-danger text-white">
+            <h2 class="mb-0"><i class="fas fa-exclamation-triangle"></i> @ViewData["Title"]</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="text-danger">Êtes-vous sûr de vouloir supprimer cette ligne de livraison ?</h4>
+            <hr />
+
+            <div class="alert alert-warning">
+                <h5><i class="fas fa-exclamation-circle"></i> Attention !</h5>
+                <p>Cette action va également mettre à jour le stock du médicament concerné.</p>
+                <p class="mb-0"><strong>Quantité à retirer :</strong> @Model.Quantite</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h5><i class="fas fa-truck"></i> Information Livraison</h5>
+                    <dl class="row">
+                        <dt class="col-sm-4">Numéro:</dt>
+                        <dd class="col-sm-8">@Model.Livraison.Numero</dd>
+                        <dt class="col-sm-4">Fournisseur:</dt>
+                        <dd class="col-sm-8">@Model.Livraison.Fournisseur</dd>
+                    </dl>
+                </div>
+                <div class="col-md-6">
+                    <h5><i class="fas fa-pills"></i> Information Médicament</h5>
+                    <dl class="row">
+                        <dt class="col-sm-4">Référence:</dt>
+                        <dd class="col-sm-8">@Model.Medicament.Reference</dd>
+                        <dt class="col-sm-4">Description:</dt>
+                        <dd class="col-sm-8">@Model.Medicament.Description</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <form asp-action="Delete" id="deleteForm" class="mt-4">
+                <input type="hidden" name="numLiv" value="@Model.NumLiv" />
+                <input type="hidden" name="refMed" value="@Model.RefMed" />
+
+                <div class="form-group">
+                    <label for="confirmationText" class="font-weight-bold">Pour confirmer, tapez "SUPPRIMER" :</label>
+                    <input type="text" id="confirmationText" class="form-control"
+                           data-expected="SUPPRIMER" required />
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Details" asp-route-numLiv="@Model.NumLiv" asp-route-refMed="@Model.RefMed"
+                       class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Annuler
+                    </a>
+                    <button type="submit" id="submitBtn" class="btn btn-danger" disabled>
+                        <i class="fas fa-trash-alt"></i> Confirmer la suppression
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#confirmationText').on('input', function() {
+                const input = $(this).val().toUpperCase();
+                const expected = $(this).data('expected');
+                $('#submitBtn').prop('disabled', input !== expected);
+            });
+
+            $('#deleteForm').submit(function() {
+                $('#submitBtn').prop('disabled', true);
+                $('#submitBtn').html('<i class="fas fa-spinner fa-spin"></i> Suppression en cours...');
+            });
+        });
+    </script>
+}

@@ -1,0 +1,143 @@
+﻿@{
+    ViewData["Title"] = "Statistiques des Livraisons";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="display-4">Statistiques des Livraisons</h1>
+    <div>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Retour à la liste
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 bg-gradient-primary text-white">
+                <h6 class="m-0 font-weight-bold">Analyse des livraisons</h6>
+            </div>
+            <div class="card-body">
+                <form asp-action="Stats" method="get" class="form-inline mb-4">
+                    <div class="form-group mr-3 mb-2">
+                        <label for="startDate" class="mr-2">Du</label>
+                        <input type="date" name="startDate" class="form-control"
+                               value="@ViewBag.StartDate?.ToString("yyyy-MM-dd")" required
+                               max="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                    </div>
+                    <div class="form-group mr-3 mb-2">
+                        <label for="endDate" class="mr-2">Au</label>
+                        <input type="date" name="endDate" class="form-control"
+                               value="@ViewBag.EndDate?.ToString("yyyy-MM-dd")" required
+                               max="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">
+                        <i class="fas fa-sync-alt"></i> Actualiser
+                    </button>
+                </form>
+
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-left-success shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                            Total des livraisons
+                                        </div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                            @ViewBag.Total.ToString("C")
+                                        </div>
+                                        <div class="text-xs text-muted mt-1">
+                                            @ViewBag.DeliveryCount livraison(s)
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-truck fa-2x text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-left-info shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                            Période analysée
+                                        </div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                            @ViewBag.StartDate?.ToString("dd/MM/yyyy") - @ViewBag.EndDate?.ToString("dd/MM/yyyy")
+                                        </div>
+                                        <div class="text-xs text-muted mt-1">
+                                            @{
+                                                var days = (ViewBag.EndDate - ViewBag.StartDate)?.Days + 1;
+                                            }
+                                            @days jour(s)
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-calendar-alt fa-2x text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                            Moyenne quotidienne
+                                        </div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                            @{
+                                                var average = days > 0 ? (ViewBag.Total / days) : 0;
+                                            }
+                                            @average.ToString("C")
+                                        </div>
+                                        <div class="text-xs text-muted mt-1">
+                                            par jour
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <i class="fas fa-chart-line fa-2x text-gray-300"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+    <script>
+        // Validation des dates
+        document.querySelector('form').addEventListener('submit', function(e) {
+            const startDate = new Date(document.querySelector('[name="startDate"]').value);
+            const endDate = new Date(document.querySelector('[name="endDate"]').value);
+            const today = new Date();
+
+            if (startDate > endDate) {
+                alert('La date de début doit être antérieure à la date de fin');
+                e.preventDefault();
+                return;
+            }
+
+            if (endDate > today) {
+                alert('La date de fin ne peut pas être dans le futur');
+                e.preventDefault();
+            }
+        });
+    </script>
+}

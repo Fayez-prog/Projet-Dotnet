@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Gestion_Medicament.Models.LigneLivraison>
+
+@{
+    ViewData["Title"] = "Lignes de livraison pour la commande " + ViewBag.NumLiv;
+}
+
+<div class="container mt-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="Index">Lignes de livraison</a></li>
+            <li class="breadcrumb-item active">Détails livraison @ViewBag.NumLiv</li>
+        </ol>
+    </nav>
+
+    <div class="card shadow">
+        <div class="card-header bg-info text-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2><i class="fas fa-truck me-2"></i>@ViewData["Title"]</h2>
+                <span class="badge bg-light text-dark fs-6">
+                    <i class="fas fa-boxes me-1"></i> @Model.Count() articles
+                </span>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead class="table-light">
+                        <tr>
+                            <th><i class="fas fa-pills me-1"></i> Médicament</th>
+                            <th><i class="fas fa-sort-amount-up me-1"></i> Quantité</th>
+                            <th><i class="fas fa-align-left me-1"></i> Description</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <strong>@Html.DisplayFor(modelItem => item.Medicament.Description)</strong>
+                                    <div class="text-muted small">@item.RefMed</div>
+                                </td>
+                                <td class="fw-bold">@Html.DisplayFor(modelItem => item.Quantite)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary" title="Modifier">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info" title="Détails">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr class="table-active">
+                            <td><strong>Total</strong></td>
+                            <td><strong>@Model.Sum(i => i.Quantite)</strong></td>
+                            <td colspan="2"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="d-flex justify-content-between mt-3">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-left me-1"></i> Retour à la liste
+                </a>
+                <div>
+                    <a href="#" class="btn btn-success me-2" onclick="window.print()">
+                        <i class="fas fa-print me-1"></i> Imprimer
+                    </a>
+                    <a asp-controller="Livraisons" asp-action="Details" asp-route-id="@ViewBag.NumLiv" class="btn btn-primary">
+                        <i class="fas fa-clipboard-list me-1"></i> Détails de la livraison
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

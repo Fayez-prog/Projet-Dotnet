@@ -1,0 +1,113 @@
+﻿@model Gestion_Medicament.Models.Livraison
+
+@{
+    ViewData["Title"] = "Créer une livraison";
+}
+
+<h1><i class="fas fa-plus-circle mr-2"></i>@ViewData["Title"]</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white py-3">
+                <h5 class="m-0 font-weight-bold"><i class="fas fa-info-circle mr-2"></i>Informations de la livraison</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" id="livraisonForm">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label asp-for="Numero" class="control-label font-weight-bold"></label>
+                            <input asp-for="Numero" class="form-control" placeholder="Saisissez le numéro" />
+                            <span asp-validation-for="Numero" class="text-danger small"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for="DateLiv" class="control-label font-weight-bold"></label>
+                            <input asp-for="DateLiv" class="form-control" type="datetime-local"
+                                   value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                            <span asp-validation-for="DateLiv" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Fournisseur" class="control-label font-weight-bold"></label>
+                        <input asp-for="Fournisseur" class="form-control" placeholder="Saisissez le fournisseur" />
+                        <span asp-validation-for="Fournisseur" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Total" class="control-label font-weight-bold"></label>
+                        <div class="input-group">
+                            <input asp-for="Total" class="form-control" placeholder="0.00" step="0.01" />
+                            <div class="input-group-append">
+                                <span class="input-group-text">€</span>
+                            </div>
+                        </div>
+                        <span asp-validation-for="Total" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <button type="submit" class="btn btn-primary mr-2">
+                            <i class="fas fa-save mr-1"></i> Enregistrer
+                        </button>
+                        <a asp-action="Index" class="btn btn-secondary">
+                            <i class="fas fa-times mr-1"></i> Annuler
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow">
+            <div class="card-header bg-info text-white py-3">
+                <h5 class="m-0 font-weight-bold"><i class="fas fa-lightbulb mr-2"></i>Conseils</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success mr-2"></i>
+                        Vérifiez que le numéro de livraison est unique
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success mr-2"></i>
+                        La date est automatiquement définie à maintenant
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success mr-2"></i>
+                        Le total sera calculé automatiquement après ajout des lignes
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function() {
+            // Formatage automatique du numéro
+            $('#Numero').on('blur', function() {
+                let num = $(this).val().trim().toUpperCase();
+                if (!num.startsWith('LIV-') && num !== '') {
+                    $(this).val('LIV-' + num);
+                }
+            });
+
+            // Validation du total
+            $('#Total').on('change', function() {
+                let value = parseFloat($(this).val());
+                if (isNaN(value) || value < 0) {
+                    $(this).val('0.00');
+                }
+            });
+        });
+    </script>
+}

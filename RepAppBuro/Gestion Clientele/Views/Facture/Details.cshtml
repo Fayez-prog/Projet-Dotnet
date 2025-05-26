@@ -1,0 +1,39 @@
+﻿@model Gestion_Clientele.Models.Facture
+
+@{
+    ViewData["Title"] = "Détails de la Facture";
+}
+
+<h1>Détails de la Facture</h1>
+
+<div>
+    <h4>Facture @Model.Numero</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">Numéro:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Numero)</dd>
+
+        <dt class="col-sm-3">Date:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Date)</dd>
+
+        <dt class="col-sm-3">Montant Total:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.MontantTotal)</dd>
+
+        <dt class="col-sm-3">ID Réparation:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Reparation.Id)</dd>
+
+        @if (Model.Reparation != null)
+        {
+            <dt class="col-sm-3">Date Réparation:</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Reparation.DateRep)</dd>
+
+            <dt class="col-sm-3">Description:</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Reparation.Description)</dd>
+        }
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Modifier</a>
+    <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+    <a asp-action="GeneratePdf" asp-route-id="@Model.Id" class="btn btn-primary">Générer PDF</a>
+</div>

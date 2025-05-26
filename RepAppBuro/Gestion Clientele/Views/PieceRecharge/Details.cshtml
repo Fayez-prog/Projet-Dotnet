@@ -1,0 +1,59 @@
+﻿@model Gestion_Clientele.Models.PieceRecharge
+
+@{
+    ViewData["Title"] = "Détails de la pièce";
+}
+
+<h1>Détails de la pièce</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Nom)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Nom)
+        </dd>
+        <dt class="col-sm-3">
+            Type de pièce
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.TypePiece.Type)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Quantite)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Quantite)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PrixHT)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.PrixHT)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PrixTTC)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.PrixTTC)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PrixAChat)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.PrixAChat)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Modifier</a>
+    <a asp-action="Index" class="btn btn-primary">Retour à la liste</a>
+</div>

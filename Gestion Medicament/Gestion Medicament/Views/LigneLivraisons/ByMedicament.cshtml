@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Gestion_Medicament.Models.LigneLivraison>
+
+@{
+    ViewData["Title"] = "Historique des livraisons pour le médicament " + ViewBag.RefMed;
+}
+
+<div class="container mt-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="Index">Lignes de livraison</a></li>
+            <li class="breadcrumb-item active">Historique médicament @ViewBag.RefMed</li>
+        </ol>
+    </nav>
+
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2><i class="fas fa-history me-2"></i>@ViewData["Title"]</h2>
+                <span class="badge bg-light text-dark fs-6">
+                    <i class="fas fa-truck me-1"></i> @Model.Count() livraisons
+                </span>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-info-circle me-2"></i>Résumé</h5>
+                            <dl class="row">
+                                <dt class="col-sm-6">Quantité totale reçue:</dt>
+                                <dd class="col-sm-6 fw-bold">@Model.Sum(i => i.Quantite)</dd>
+
+                                <dt class="col-sm-6">Première livraison:</dt>
+                                <dd class="col-sm-6">@Model.Min(i => i.Livraison.DateLiv).ToShortDateString()</dd>
+
+                                <dt class="col-sm-6">Dernière livraison:</dt>
+                                <dd class="col-sm-6">@Model.Max(i => i.Livraison.DateLiv).ToShortDateString()</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead class="table-light">
+                        <tr>
+                            <th><i class="fas fa-calendar-day me-1"></i> Date Livraison</th>
+                            <th><i class="fas fa-barcode me-1"></i> Numéro Livraison</th>
+                            <th><i class="fas fa-sort-amount-up me-1"></i> Quantité</th>
+                            <th><i class="fas fa-align-left me-1"></i> Description</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.OrderByDescending(i => i.Livraison.DateLiv))
+                        {
+                            <tr>
+                                <td>@item.Livraison.DateLiv.ToShortDateString()</td>
+                                <td>@Html.DisplayFor(modelItem => item.Livraison.Numero)</td>
+                                <td class="fw-bold">@Html.DisplayFor(modelItem => item.Quantite)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                <td>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info" title="Détails">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a asp-controller="Livraisons" asp-action="Details" asp-route-id="@item.NumLiv"
+                                       class="btn btn-sm btn-outline-primary" title="Voir livraison">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="d-flex justify-content-between mt-3">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-left me-1"></i> Retour à la liste
+                </a>
+                <a href="#" class="btn btn-success" onclick="window.print()">
+                    <i class="fas fa-print me-1"></i> Imprimer l'historique
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

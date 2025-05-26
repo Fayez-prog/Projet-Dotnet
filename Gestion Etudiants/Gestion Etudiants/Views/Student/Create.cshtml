@@ -1,0 +1,82 @@
+﻿@model Gestion_Etudiants.Models.Student
+
+@{
+    ViewData["Title"] = "Ajouter un Étudiant";
+}
+
+<div class="card shadow">
+    <div class="card-header bg-primary text-white">
+        <h3 class="card-title">@ViewData["Title"]</h3>
+    </div>
+    <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="StudentName" class="form-label"></label>
+                <input asp-for="StudentName" class="form-control" placeholder="Entrez le nom de l'étudiant" />
+                <span asp-validation-for="StudentName" class="text-danger"></span>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group mb-3">
+                        <label asp-for="Age" class="form-label"></label>
+                        <input asp-for="Age" class="form-control" min="15" max="30" />
+                        <span asp-validation-for="Age" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group mb-3">
+                        <label asp-for="BirthDate" class="form-label"></label>
+                        <input asp-for="BirthDate" type="date" class="form-control" />
+                        <span asp-validation-for="BirthDate" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="SchoolID" class="form-label"></label>
+                <select asp-for="SchoolID" class="form-select"
+                        asp-items="ViewBag.SchoolList">
+                    <option value="">-- Sélectionnez une école --</option>
+                </select>
+                <span asp-validation-for="SchoolID" class="text-danger"></span>
+            </div>
+
+            <div class="form-group d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save me-2"></i>Créer
+                </button>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left me-2"></i>Retour à la liste
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function() {
+            $('form').submit(function() {
+                if ($(this).valid()) {
+                    $('button[type="submit"]').prop('disabled', true)
+                        .html('<i class="fas fa-spinner fa-spin me-2"></i> Enregistrement...');
+                }
+            });
+
+            // Calcul automatique de l'âge si la date de naissance change
+            $('#BirthDate').change(function() {
+                const birthDate = new Date($(this).val());
+                if (!isNaN(birthDate.getTime())) {
+                    const age = new Date().getFullYear() - birthDate.getFullYear();
+                    $('#Age').val(age);
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,35 @@
+﻿@model Gestion_Etudiants.Models.Student
+
+@{
+    ViewData["Title"] = "Détails de l'Étudiant";
+}
+
+<div class="card shadow">
+    <div class="card-header bg-info text-white">
+        <h3 class="card-title">@ViewData["Title"]</h3>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.StudentName)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.StudentName)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Age)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Age)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.BirthDate)</dt>
+            <dd class="col-sm-9">@Model.BirthDate.ToString("dd/MM/yyyy")</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.School)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.School.SchoolName)</dd>
+        </dl>
+
+        <div class="mt-4 d-flex justify-content-between">
+            <a asp-action="Edit" asp-route-id="@Model.StudentId" class="btn btn-warning">
+                <i class="fas fa-edit me-2"></i>Modifier
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="fas fa-arrow-left me-2"></i>Retour à la liste
+            </a>
+        </div>
+    </div>
+</div>

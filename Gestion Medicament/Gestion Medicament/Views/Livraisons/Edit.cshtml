@@ -1,0 +1,89 @@
+﻿@model Gestion_Medicament.Models.Livraison
+
+@{
+    ViewData["Title"] = "Modifier la livraison";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1><i class="fas fa-edit mr-2 text-primary"></i>@ViewData["Title"]</h1>
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fas fa-arrow-left mr-1"></i> Retour
+    </a>
+</div>
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3 bg-primary text-white">
+        <h6 class="m-0 font-weight-bold"><i class="fas fa-pencil-alt mr-2"></i>Modifier les informations</h6>
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+            <input type="hidden" asp-for="Numero" />
+
+            <div class="form-group">
+                <label asp-for="Fournisseur" class="font-weight-bold"></label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-truck"></i></span>
+                    </div>
+                    <input asp-for="Fournisseur" class="form-control" placeholder="Entrez le nom du fournisseur" />
+                </div>
+                <span asp-validation-for="Fournisseur" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DateLiv" class="font-weight-bold"></label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                    </div>
+                    <input asp-for="DateLiv" class="form-control" />
+                </div>
+                <span asp-validation-for="DateLiv" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Total" class="font-weight-bold"></label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-euro-sign"></i></span>
+                    </div>
+                    <input asp-for="Total" class="form-control" placeholder="0.00" step="0.01" />
+                </div>
+                <span asp-validation-for="Total" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-primary mr-2">
+                    <i class="fas fa-save mr-1"></i> Enregistrer
+                </button>
+                <a asp-action="Details" asp-route-id="@Model.Numero" class="btn btn-info mr-2">
+                    <i class="fas fa-eye mr-1"></i> Voir les détails
+                </a>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-times mr-1"></i> Annuler
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Formatage automatique de la date pour une meilleure expérience utilisateur
+        $(document).ready(function() {
+            $('input[asp-for="DateLiv"]').attr('type', 'datetime-local');
+
+            // Formatage du champ Total pour l'affichage monétaire
+            $('input[asp-for="Total"]').on('blur', function() {
+                let value = parseFloat($(this).val()).toFixed(2);
+                if (!isNaN(value)) {
+                    $(this).val(value);
+                }
+            });
+        });
+    </script>
+}
